@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!--Metadatos-->
+  <meta charset="UTF-8">
+  <meta name="author" content="Fernando Rodriguez">
+  <meta name="description" content="Portafolio de Desarrollo Web de Fernando Rodriguez">
+  <meta name="keywords" content="HTML, CSS, JavaScript, React">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Titulo-->
+  <title>Fernando Rodriguez</title>
+  <!--Favicon-->
+  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- Bootstrap Iconos -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!--CSS Style-->
+  <link rel="stylesheet" href="assets/style/style.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+  <!-- AOS animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+  <header>
+    <!-- Barra de Navegacion -->
+    <nav class="navbar navbar-expand-md navbar-dark position-fixed container-fluid z-3 ">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav-bar-background mt-2 w-100 pb-2" id="navbar-toggler">
+          <a class="navbar-brand mr-md-20" href="#">
+            <img class="rounded-4 shadow-lg lion" src="assets/img/Leon-Logo.jpg" width="80" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center mt-2 p-6">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#sobre-mi">Sobre Mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Seccion Heroe-->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-image-desarrollador rounded-circle" src="assets/img/Foto Mia.jpg" alt="Personal_image">
+        <h1>Hola, soy <span>Fernando</span> Rodriguez</h1>
+        <h2>Soy Desarrollador Web <span>Full-Stack</span></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="assets/img/hero-inferior.svg"
+          alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+  </header>
+  <!-- Seccion Sobre Mi -->
+  <section class="sobre-mi seccion-oscura">
+    <div class="contenedor" data-aos="fade-up" data-aos-duration="700">
+      <h2 class="seccion-titulo">
+        Acerca de Mi
+      </h2>
+      <p class="seccion-texto">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente vitae perspiciatis officia? Numquam, et!
+        Consectetur commodi est in alias cupiditate? Temporibus nostrum accusamus ducimus repellendus tempora odio
+        maiores nam. Sed!
+      </p>
+    </div>
+  </section>
+  <!-- Experiencia -->
+  <section class="experiencia seccion-clara" >
+    <div id="experiencie-carousel" class="carousel slide" data-bs-ride="carousel" ata-aos="fade-up" data-aos-duration="1000" aos-delay="1500">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <!-- Desarrollo Web -->
+            <div class="columna col-lg-auto col-md-auto col-xl-auto col-xxl-auto" data-aos="fade-up" data-aos-duration="1000">
+              <i class="bi bi-globe"></i>
+              <p class="experiencia-titulo">Desarrollo Web</p>
+              <p>Desarrollador full-stack con experiencia en la creación de aplicaciones web dinámicas y eficientes utilizando tecnologías modernas como HTML5, CSS3 y JavaScript para el frontend, incluyendo el framework React. En el backend, uso de Node.js ademas de Java y Spring, asegurando un desarrollo ágil y escalable. Especializado en la integración de tecnologías para construir sistemas completos, desde la gestión de bases de datos hasta la implementación de lógica empresarial. Apasionado por el diseño de interfaces de usuario interactivas, empleando frameworks como Bootstrap, Tailwind y Chakra UI para garantizar una experiencia visualmente atractiva y responsiva. Comprometido con la entrega de soluciones de alta calidad que satisfacen las necesidades del cliente y mejoran la experiencia del usuario.</p>
+              <div class="row">
+                <div class="d-flex flex-column col-6 col-sm-4 col-md-3 col-lg-auto col-xl-auto col-xxl-auto justify-content-center align-items-center gap-2">
+                  <img width="50" src="assets/img/html5.svg" alt="logo-html5">
+                  <span class="rounded-pill text-bg-primary px-2">HTML5</span>
+                </div>
+                <div class="d-flex flex-column col-6 col-sm-4 col-md-3 col-lg-auto col-xl-auto col-xxl-auto justify-content-center align-items-center gap-2">
+                  <img width="50" src="assets/img/css.svg" alt="logo-css3">
+                  <span class="rounded-pill text-bg-primary px-2">CSS3</span>
+                </div>
+                <div class="d-flex flex-column col-6 col-sm-4 col-md-3 col-lg-auto col-xl-auto col-xxl-auto justify-content-center align-items-center gap-2">
+                  <img width="50" src="assets/img/javascript.svg" alt="logo-javascript">
+                  <span class="rounded-pill text-bg-primary px-2">JavaScript</span>
+                </div>
+                <div class="d-flex flex-column col-6 col-sm-4 col-md-3 col-lg-auto col-xl-auto col-xxl-auto justify-content-center align-items-center gap-2">
+                  <img width="54" src="assets/img/react.svg" alt="logo-react">
+                  <span class="rounded-pill text-bg-primary px-2">React</span>
+                </div>
+                <div class="d-flex flex-column col-6 col-sm-4 col-md-3 col-lg-auto col-xl-auto col-xxl-auto justify-content-center align-items-center gap-2">
+                  <img width="36" src="assets/img/java.svg" alt="logo-java">
+                  <span class="rounded-pill text-bg-primary px-2">Java</span>
+                </div>
+                <div class="d-flex flex-column col-6 col-sm-4 col-md-3 col-lg-auto col-xl-auto col-xxl-auto justify-content-center align-items-center gap-2">
+                  <img width="50" src="assets/img/spring.svg" alt="logo-spring">
+                  <span class="rounded-pill text-bg-primary px-2">Spring</span>
+                </div>
+                <div class="d-flex flex-column col-6 col-sm-4 col-md-3 col-lg-auto col-xl-auto col-xxl-auto justify-content-center align-items-center gap-2">
+                  <img width="62" src="assets/img/bootstrap.svg" alt="logo-bootsrap">
+                  <span class="rounded-pill text-bg-primary px-2">Bootstrap</span>
+                </div>
+                <div class="d-flex flex-column col-6 col-sm-4 col-md-3 col-lg-auto col-xl-auto col-xxl-auto justify-content-center align-items-center gap-2">
+                  <img width="50" src="assets/img/chakra-ui.svg" alt="logo-chackra-ui">
+                  <span class="rounded-pill text-bg-primary px-2">Chackra UI</span>
+                </div>
+                <div class="d-flex flex-column col-6 col-sm-4 col-md-3 col-lg-auto col-xl-auto col-xxl-auto justify-content-center align-items-center gap-2">
+                  <img width="80" src="assets/img/tailwindcss.svg" alt="logo-tailwnd">
+                  <span class="rounded-pill text-bg-primary px-2">Tailwind</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="columna col-lg-auto col-md-auto col-xl-auto col-xxl-auto" data-aos="fade-up" data-aos-duration="1000">
+            <i class="bi bi-phone"></i>
+            <p class="experiencia-titulo">Desarrollo Movil</p>
+            <p>Desarrollador móvil con experiencia en la creación de aplicaciones multiplataforma utilizando tecnologías modernas como React Native, Dart y Flutter. Especializado en el desarrollo ágil y eficiente de interfaces de usuario dinámicas y atractivas que funcionan de manera fluida en dispositivos iOS y Android. Capaz de aprovechar al máximo las capacidades de Flutter para construir interfaces de usuario personalizadas y altamente interactivas, manteniendo un rendimiento óptimo en todas las plataformas. Comprometido con la excelencia técnica y la satisfacción del cliente, buscando constantemente mejorar la experiencia del usuario y superar las expectativas del proyecto.
+            </p>
+              <div class="row">
+                <div class="d-flex flex-column col-6 col-sm-4 col-md-3 col-lg-auto col-xl-auto col-xxl-auto justify-content-center align-items-center gap-2">
+                  <img width="50" src="assets/img/react-native.svg" alt="logo-react-native">
+                  <span class="rounded-pill text-bg-primary px-3">React-Native</span>
+                </div>
+                <div class="d-flex flex-column col-6 col-sm-4 col-md-3 col-lg-auto col-xl-auto col-xxl-auto justify-content-center align-items-center gap-2">
+                  <img width="50" src="assets/img/dart.svg" alt="logo-dart">
+                  <span class="rounded-pill text-bg-primary px-2">Dart</span>
+                </div>
+                <div class="d-flex flex-column col-6 col-sm-4 col-md-3 col-lg-auto col-xl-auto col-xxl-auto justify-content-center align-items-center gap-2">
+                  <img width="40" src="assets/img/flutter.svg" alt="logo-flutter">
+                  <span class="rounded-pill text-bg-primary px-2">Fluter</span>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="columna col-lg-auto col-md-auto col-xl-auto col-xxl-auto" 
+        data-aos="fade-up" data-aos-duration="1000">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Desarrollo de Software</p>
+          <p>Estudiante entusiasta en proceso de aprendizaje de desarrollo de software con enfoque en C# y el framework .NET. Explorando las posibilidades de crear aplicaciones robustas y escalables utilizando estas tecnologías, y comprometido a dominar las herramientas proporcionadas por el ecosistema de .NET. Emocionado por adquirir experiencia en el diseño y desarrollo de aplicaciones de escritorio, web y móviles, aprovechando las oportunidades de aprendizaje y crecimiento que ofrece este campo. Determinado a mejorar continuamente mis habilidades y conocimientos mientras trabajo en proyectos que desafíen y fortalezcan mis capacidades como futuro desarrollador de software.</p>
+            <div class="row">
+              <div class="d-flex flex-column col-6 col-sm-6 col-md-6 col-lg-auto col-xl-auto col-xxl-auto justify-content-center align-items-center gap-2">
+                <img width="46" src="assets/img/csharp.svg" alt="logo-c-sharp">
+                <span class="rounded-pill text-bg-primary px-2">C#</span>
+              </div>
+              <div class="d-flex flex-column col-6 col-sm-4 col-md-3 col-lg-auto col-xl-auto col-xxl-auto justify-content-center align-items-center gap-2">
+                <img width="50" src="assets/img/dot-net-original-wordmark.svg" alt="logo-Net-Framework">
+                <span class="rounded-pill text-bg-primary px-2">.NET</span>
+              </div>
+            </div>
+        </div>
+
+        </div>
+        <!-- Agrega más elementos carousel-item según sea necesario -->
+      </div>
+      <button class="carousel-control-prev button-carousel" type="button" data-bs-target="#experiencie-carousel" data-bs-slide="prev" data-aos="fade-up" data-aos-duration="1000">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next button-carousel" type="button" data-bs-target="#experiencie-carousel" data-bs-slide="next" data-aos="fade-up" data-aos-duration="1000">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!-- Proyectos -->
+  <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+    <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+    <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+    <!-- Galeria de Proyectos -->
+    <div class="container text-center proyectos-contenedor">
+      <div class="row">
+        <!-- Proyecto 1 -->
+        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="700">
+          <div class="proyecto">
+            <img src="assets/img/weather.webp" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Weather App</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/Ferchulobo777/Weather-App" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://wheatherapp-a.netlify.app/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+           <!-- Proyecto 2 -->
+        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="700">
+          <div class="proyecto">
+            <img src="assets/img/weather.webp" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Proyecto 1</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+         <!-- Proyecto 3 -->
+        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="700">
+          <div class="proyecto">
+            <img src="assets/img/weather.webp" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Proyecto 1</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 4 -->
+        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="700">
+          <div class="proyecto">
+            <img src="assets/img/weather.webp" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Proyecto 1</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 5 -->
+        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="700">
+          <div class="proyecto">
+            <img src="assets/img/weather.webp" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Proyecto 1</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 6 -->
+        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="700">
+          <div class="proyecto">
+            <img src="assets/img/weather.webp" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Proyecto 1</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <footer class="container-fluid bottom-100">
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
