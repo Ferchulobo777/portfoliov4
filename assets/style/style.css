@@ -447,7 +447,10 @@ columna img {
 .social-link:hover {
   filter: drop-shadow(0px 0px 8px rgba(255,255,255,1))
 }
-
+.contacto-footer{
+  font-size: 1.2rem;
+  font-weight: 700;
+}
 .flecha-arriba {
   position: fixed;
   bottom: 40px; /* Distancia desde la parte inferior */
@@ -456,6 +459,13 @@ columna img {
 
 .flecha:hover {
   filter: drop-shadow(0px 0px 8px rgba(255,255,255,1))
+}
+.mail {
+  color: var(--color-text-dark);
+  text-decoration: none;
+  &:hover {
+    color: blue;
+}
 }
 
 .texto-btn-redes {
