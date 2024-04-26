@@ -1,0 +1,68 @@
+[
+    {
+        "nombre": "Wheather Web App",
+        "imagen": "../assets/img/weather.webp",
+        "github": "https://github.com/Ferchulobo777/Weather-App",
+        "link": "https://wheatherapp-a.netlify.app/"
+    },
+    {
+        "nombre": "Cost Control Web App",
+        "imagen": "../assets/img/Cost-control.webp",
+        "github": "https://github.com/Ferchulobo777/Cost-Control",
+        "link": "https://cost-control.netlify.app/"
+    },
+    {
+        "nombre": "Cripto Conversor Web App",
+        "imagen": "../assets/img/Cripto.webp",
+        "github": "https://github.com/Ferchulobo777/Cryptocurrency-Quote",
+        "link": "https://cryptocurrency-quote-fer.netlify.app/"
+    },
+    {
+        "nombre": "Celebrity Quotes Web App",
+        "imagen": "../assets/img/Phamous-Phrases.webp",
+        "github": "https://github.com/Ferchulobo777/Famous-Phrases",
+        "link": "https://famous-phrases.netlify.app/"
+    },
+    {
+        "nombre": "Rick and Morty Web App",
+        "imagen": "../assets/img/rick.webp",
+        "github": "https://github.com/Ferchulobo777/Rick-and-Morty",
+        "link": "https://rick-and-morty-app-ferchulobo777.netlify.app/"
+    },
+    {
+        "nombre": "Users CRUD",
+        "imagen": "../assets/img/users.webp",
+        "github": "https://github.com/Ferchulobo777/C.R.U.D",
+        "link": "https://crud-ferchulobo777.netlify.app/"
+    },
+    {
+        "nombre": "Veterinary Web App",
+        "imagen": "../assets/img/veterinaria.webp",
+        "github": "https://github.com/Ferchulobo777/Appointment-and-Shift-Manager-for-Veterinary",
+        "link": "https://appointment-veterinary.netlify.app/"
+    },
+    {
+        "nombre": "Cocktail Web App",
+        "imagen": "../assets/img/Bebidas.webp",
+        "github": "https://github.com/Ferchulobo777/Beverage-Finder",
+        "link": "https://beverage-finder.netlify.app/"
+    },
+    {
+        "nombre": "Pokemón Web App",
+        "imagen": "../assets/img/poke.webp",
+        "github": "https://github.com/Ferchulobo777/Pokedex",
+        "link": "https://pokedex-ferchulobo777.netlify.app/"
+    },
+    {
+        "nombre": "Digimón Web App",
+        "imagen": "../assets/img/Digidex.webp",
+        "github": "https://github.com/Ferchulobo777/Digidex",
+        "link": "https://digidex-ferchulobo777.netlify.app/"
+    },
+    {
+        "nombre": "E-Commerce Web App",
+        "imagen": "../assets/img/ecommerce.webp",
+        "github": "https://github.com/Ferchulobo777/E-Commerce-React-Frontend",
+        "link": "https://react-e-commerce-ferchulobo777.netlify.app/"
+    }
+]

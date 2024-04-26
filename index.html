@@ -28,7 +28,7 @@
 </head>
 
 <body>
-  <header>
+  <header id="header">
     <!-- Barra de Navegacion -->
     <nav class="navbar navbar-expand-md navbar-dark position-fixed container-fluid z-3 ">
       <div class="container-fluid">
@@ -37,18 +37,18 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse nav-bar-background mt-2 w-100 pb-2" id="navbar-toggler">
-          <a class="navbar-brand mr-md-20" href="#">
+          <a class="navbar-brand mr-md-20" href="#main">
             <img class="rounded-4 shadow-lg lion" src="assets/img/Leon-Logo.jpg" width="80" alt="Logo de la página web">
           </a>
           <ul class="navbar-nav d-flex justify-content-center align-items-center mt-2 p-6">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#sobre-mi">Sobre Mí</a>
+              <a class="nav-link" aria-current="page" href="#acerca-de-mi">Acerca de mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#habilidades">Habilidades</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#proyectos">Proyectos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#testimonios">Testimonios</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contacto">Contacto</a>
@@ -72,29 +72,28 @@
     </section>
   </header>
   <!-- Seccion Sobre Mi -->
-  <section class="sobre-mi seccion-oscura">
+  <section id="acerca-de-mi" class="sobre-mi seccion-oscura">
     <div class="contenedor" data-aos="fade-up" data-aos-duration="700">
       <h2 class="seccion-titulo">
         Acerca de Mi
       </h2>
       <p class="seccion-texto">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente vitae perspiciatis officia? Numquam, et!
-        Consectetur commodi est in alias cupiditate? Temporibus nostrum accusamus ducimus repellendus tempora odio
-        maiores nam. Sed!
+        Soy Fernando Rodriguez, un desarrollador Full Stack Web de Mendoza, Argentina. Mi pasión por el desarrollo web me impulsa a crear soluciones innovadoras y funcionales para mis clientes. Con experiencia en una variedad de tecnologías y un enfoque integral, estoy comprometido a entregar proyectos de alta calidad que superen las expectativas. Estoy emocionado de seguir creciendo en este campo apasionante y contribuir al éxito de futuros proyectos.
       </p>
     </div>
   </section>
   <!-- Experiencia -->
-  <section class="experiencia seccion-clara" >
+  <section   class="experiencia seccion-clara" >
+    <h2 id="habilidades"  class="seccion-titulo texto-negro text-center">Mis Habilidades</h2>
     <div id="experiencie-carousel" class="carousel slide" data-bs-ride="carousel" ata-aos="fade-up" data-aos-duration="1000" aos-delay="1500">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <div class="row">
+          <div id="contenedor-desarollo"  class="row">
             <!-- Desarrollo Web -->
             <div class="columna col-lg-auto col-md-auto col-xl-auto col-xxl-auto" data-aos="fade-up" data-aos-duration="1000">
               <i class="bi bi-globe"></i>
               <p class="experiencia-titulo">Desarrollo Web</p>
-              <p>Desarrollador full-stack con experiencia en la creación de aplicaciones web dinámicas y eficientes utilizando tecnologías modernas como HTML5, CSS3 y JavaScript para el frontend, incluyendo el framework React. En el backend, uso de Node.js ademas de Java y Spring, asegurando un desarrollo ágil y escalable. Especializado en la integración de tecnologías para construir sistemas completos, desde la gestión de bases de datos hasta la implementación de lógica empresarial. Apasionado por el diseño de interfaces de usuario interactivas, empleando frameworks como Bootstrap, Tailwind y Chakra UI para garantizar una experiencia visualmente atractiva y responsiva. Comprometido con la entrega de soluciones de alta calidad que satisfacen las necesidades del cliente y mejoran la experiencia del usuario.</p>
+              <p class="experiencia-parrafo">Desarrollador full-stack con experiencia en la creación de aplicaciones web dinámicas y eficientes utilizando tecnologías modernas como HTML5, CSS3 y JavaScript para el frontend, incluyendo el framework React. En el backend, uso de Node.js ademas de Java y Spring, asegurando un desarrollo ágil y escalable. Especializado en la integración de tecnologías para construir sistemas completos, desde la gestión de bases de datos hasta la implementación de lógica empresarial. Apasionado por el diseño de interfaces de usuario interactivas, empleando frameworks como Bootstrap, Tailwind y Chakra UI para garantizar una experiencia visualmente atractiva y responsiva. Comprometido con la entrega de soluciones de alta calidad que satisfacen las necesidades del cliente y mejoran la experiencia del usuario.</p>
               <div class="row">
                 <div class="d-flex flex-column col-6 col-sm-4 col-md-3 col-lg-auto col-xl-auto col-xxl-auto justify-content-center align-items-center gap-2">
                   <img width="50" src="assets/img/html5.svg" alt="logo-html5">
@@ -140,7 +139,7 @@
           <div class="columna col-lg-auto col-md-auto col-xl-auto col-xxl-auto" data-aos="fade-up" data-aos-duration="1000">
             <i class="bi bi-phone"></i>
             <p class="experiencia-titulo">Desarrollo Movil</p>
-            <p>Desarrollador móvil con experiencia en la creación de aplicaciones multiplataforma utilizando tecnologías modernas como React Native, Dart y Flutter. Especializado en el desarrollo ágil y eficiente de interfaces de usuario dinámicas y atractivas que funcionan de manera fluida en dispositivos iOS y Android. Capaz de aprovechar al máximo las capacidades de Flutter para construir interfaces de usuario personalizadas y altamente interactivas, manteniendo un rendimiento óptimo en todas las plataformas. Comprometido con la excelencia técnica y la satisfacción del cliente, buscando constantemente mejorar la experiencia del usuario y superar las expectativas del proyecto.
+            <p class="experiencia-parrafo">Desarrollador móvil con experiencia en la creación de aplicaciones multiplataforma utilizando tecnologías modernas como React Native, Dart y Flutter. Especializado en el desarrollo ágil y eficiente de interfaces de usuario dinámicas y atractivas que funcionan de manera fluida en dispositivos iOS y Android. Capaz de aprovechar al máximo las capacidades de Flutter para construir interfaces de usuario personalizadas y altamente interactivas, manteniendo un rendimiento óptimo en todas las plataformas. Comprometido con la excelencia técnica y la satisfacción del cliente, buscando constantemente mejorar la experiencia del usuario y superar las expectativas del proyecto.
             </p>
               <div class="row">
                 <div class="d-flex flex-column col-6 col-sm-4 col-md-3 col-lg-auto col-xl-auto col-xxl-auto justify-content-center align-items-center gap-2">
@@ -163,7 +162,7 @@
         data-aos="fade-up" data-aos-duration="1000">
           <i class="bi bi-laptop"></i>
           <p class="experiencia-titulo">Desarrollo de Software</p>
-          <p>Estudiante entusiasta en proceso de aprendizaje de desarrollo de software con enfoque en C# y el framework .NET. Explorando las posibilidades de crear aplicaciones robustas y escalables utilizando estas tecnologías, y comprometido a dominar las herramientas proporcionadas por el ecosistema de .NET. Emocionado por adquirir experiencia en el diseño y desarrollo de aplicaciones de escritorio, web y móviles, aprovechando las oportunidades de aprendizaje y crecimiento que ofrece este campo. Determinado a mejorar continuamente mis habilidades y conocimientos mientras trabajo en proyectos que desafíen y fortalezcan mis capacidades como futuro desarrollador de software.</p>
+          <p class="experiencia-parrafo">Estudiante entusiasta en proceso de aprendizaje de desarrollo de software con enfoque en C# y el framework .NET. Explorando las posibilidades de crear aplicaciones robustas y escalables utilizando estas tecnologías, y comprometido a dominar las herramientas proporcionadas por el ecosistema de .NET. Emocionado por adquirir experiencia en el diseño y desarrollo de aplicaciones de escritorio, web y móviles, aprovechando las oportunidades de aprendizaje y crecimiento que ofrece este campo. Determinado a mejorar continuamente mis habilidades y conocimientos mientras trabajo en proyectos que desafíen y fortalezcan mis capacidades como futuro desarrollador de software.</p>
             <div class="row">
               <div class="d-flex flex-column col-6 col-sm-6 col-md-6 col-lg-auto col-xl-auto col-xxl-auto justify-content-center align-items-center gap-2">
                 <img width="46" src="assets/img/csharp.svg" alt="logo-c-sharp">
@@ -189,123 +188,61 @@
       </button>
     </div>
   </section>
-  <!-- Proyectos -->
+  <!-- Seccion Proyectos -->
   <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
-    <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+    <h2  class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
     <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
     <!-- Galeria de Proyectos -->
-    <div class="container text-center proyectos-contenedor">
-      <div class="row">
-        <!-- Proyecto 1 -->
-        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="700">
-          <div class="proyecto">
-            <img src="assets/img/weather.webp" alt="Proyecto 1">
-            <div class="overlay">
-              <p>Weather App</p>
-              <div class="iconos-contenedor">
-                <a href="https://github.com/Ferchulobo777/Weather-App" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-github"></i>
-                </a>
-                <a href="https://wheatherapp-a.netlify.app/" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-laptop"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-           <!-- Proyecto 2 -->
-        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="700">
-          <div class="proyecto">
-            <img src="assets/img/weather.webp" alt="Proyecto 1">
-            <div class="overlay">
-              <p>Proyecto 1</p>
-              <div class="iconos-contenedor">
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-github"></i>
-                </a>
-                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-laptop"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-         <!-- Proyecto 3 -->
-        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="700">
-          <div class="proyecto">
-            <img src="assets/img/weather.webp" alt="Proyecto 1">
-            <div class="overlay">
-              <p>Proyecto 1</p>
-              <div class="iconos-contenedor">
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-github"></i>
-                </a>
-                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-laptop"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Proyecto 4 -->
-        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="700">
-          <div class="proyecto">
-            <img src="assets/img/weather.webp" alt="Proyecto 1">
-            <div class="overlay">
-              <p>Proyecto 1</p>
-              <div class="iconos-contenedor">
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-github"></i>
-                </a>
-                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-laptop"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Proyecto 5 -->
-        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="700">
-          <div class="proyecto">
-            <img src="assets/img/weather.webp" alt="Proyecto 1">
-            <div class="overlay">
-              <p>Proyecto 1</p>
-              <div class="iconos-contenedor">
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-github"></i>
-                </a>
-                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-laptop"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Proyecto 6 -->
-        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="700">
-          <div class="proyecto">
-            <img src="assets/img/weather.webp" alt="Proyecto 1">
-            <div class="overlay">
-              <p>Proyecto 1</p>
-              <div class="iconos-contenedor">
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-github"></i>
-                </a>
-                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-laptop"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-       
+    <div   class="container text-center proyectos-contenedor">
+      <div id="proyectos-contenedor" class="row">
         </div>
       </div>
     </div>
-
   </section>
-  <footer class="container-fluid bottom-100">
-
+  <!-- Seccion Contacto -->
+  <section id="contacto" class="contacto seccion-oscura">
+    <div class="container">
+      <div class="container text-center rectangulo d-flex justify-content-evenly">
+        <div class="row">
+          <div class="col-12 col-md-4 seccion-titulo">
+            ¡Hablemos!
+          </div>
+          <div class="col-12 col-md-4 descripcion">
+            Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="mailto:janedoe@micorreo.com">
+              <button type="button">  
+                Contacto
+                <i class="bi bi-envelope-check-fill"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="seccion-oscura container-fluid py-5">
+    <div class="row">
+      <div class="col-md-12 d-flex justify-content-center ">
+        <!-- Redes Sociales -->
+        <div class="d-flex justify-content-center gap-3 justify-content-md-center mb-4">
+          <a href="https://github.com/Ferchulobo777" target="_blank" rel="noopener noreferrer" class="social-link me-3"><img width="50" src="./assets/img/github.svg" alt="github-logo"></a>
+          <a href="https://www.linkedin.com/in/ferchulobo777/" target="_blank" rel="noopener noreferrer" class="social-link"><img width="50" src="./assets/img/linkedin.svg" alt="linkedin-logo"></a>
+        </div>
+      </div>
+      <div class="col-md-12 text-center">
+        <!-- Derechos Reservados y Año -->
+        <p class="mb-3">&copy; Todos los Derechos Reservados - <span id="currentYear"></span></p>
+        <!-- Información Adicional -->
+        <p class="mb-0">Información de Contacto: <a href="mailto:ferchulobo2015@gmail.com">fechulobo2015@gmail.com</a> | Ferchulobo777 </p>
+      </div>
+    </div>
+    <div class="flecha-arriba">
+      <a href="#header">
+        <img class="flecha" src="./assets/img/flecha-hacia-arriba.png" alt="logo-flecha-arriba">
+      </a>
+    </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -314,6 +251,8 @@
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
+  </script>
+  <script src="./assets/js/script.js">
   </script>
 </body>
 

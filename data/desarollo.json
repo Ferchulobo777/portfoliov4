@@ -1,0 +1,37 @@
+[
+    {
+        "icono": "bi bi-globe",
+        "titulo": "Desarrollo Web",
+        "parrafo": "Desarrollador full-stack con experiencia en la creación de aplicaciones web dinámicas y eficientes utilizando tecnologías modernas como HTML5, CSS3 y JavaScript para el frontend, incluyendo el framework React. En el backend, uso de Node.js además de Java y Spring, asegurando un desarrollo ágil y escalable. Especializado en la integración de tecnologías para construir sistemas completos, desde la gestión de bases de datos hasta la implementación de lógica empresarial. Apasionado por el diseño de interfaces de usuario interactivas, empleando frameworks como Bootstrap, Tailwind y Chakra UI para garantizar una experiencia visualmente atractiva y responsiva. Comprometido con la entrega de soluciones de alta calidad que satisfacen las necesidades del cliente y mejoran la experiencia del usuario.",
+        "tecnologias": [
+            { "imagen": "assets/img/html5.svg", "nombre": "HTML5" },
+            { "imagen": "assets/img/css.svg", "nombre": "CSS3" },
+            { "imagen": "assets/img/javascript.svg", "nombre": "JavaScript" },
+            { "imagen": "assets/img/react.svg", "nombre": "React" },
+            { "imagen": "assets/img/java.svg", "nombre": "Java" },
+            { "imagen": "assets/img/spring.svg", "nombre": "Spring" },
+            { "imagen": "assets/img/bootstrap.svg", "nombre": "Bootstrap" },
+            { "imagen": "assets/img/chakra-ui.svg", "nombre": "Chakra UI" },
+            { "imagen": "assets/img/tailwindcss.svg", "nombre": "Tailwind" }
+        ]
+    },
+    {
+        "icono": "bi bi-phone",
+        "titulo": "Desarrollo Movil",
+        "parrafo": "Desarrollador móvil con experiencia en la creación de aplicaciones multiplataforma utilizando tecnologías modernas como React Native, Dart y Flutter. Especializado en el desarrollo ágil y eficiente de interfaces de usuario dinámicas y atractivas que funcionan de manera fluida en dispositivos iOS y Android. Capaz de aprovechar al máximo las capacidades de Flutter para construir interfaces de usuario personalizadas y altamente interactivas, manteniendo un rendimiento óptimo en todas las plataformas. Comprometido con la excelencia técnica y la satisfacción del cliente, buscando constantemente mejorar la experiencia del usuario y superar las expectativas del proyecto.",
+        "tecnologias": [
+            { "imagen": "assets/img/react-native.svg", "nombre": "React Native" },
+            { "imagen": "assets/img/dart.svg", "nombre": "Dart" },
+            { "imagen": "assets/img/flutter.svg", "nombre": "Flutter" }
+        ]
+    },
+    {
+        "icono": "bi bi-laptop",
+        "titulo": "Desarrollo de Software",
+        "parrafo": "Estudiante entusiasta en proceso de aprendizaje de desarrollo de software con enfoque en C# y el framework .NET. Explorando las posibilidades de crear aplicaciones robustas y escalables utilizando estas tecnologías, y comprometido a dominar las herramientas proporcionadas por el ecosistema de .NET. Emocionado por adquirir experiencia en el diseño y desarrollo de aplicaciones de escritorio, web y móviles, aprovechando las oportunidades de aprendizaje y crecimiento que ofrece este campo. Determinado a mejorar continuamente mis habilidades y conocimientos mientras trabajo en proyectos que desafíen y fortalezcan mis capacidades como futuro desarrollador de software.",
+        "tecnologias": [
+            { "imagen": "assets/img/csharp.svg", "nombre": "C#" },
+            { "imagen": "assets/img/dot-net-original-wordmark.svg", "nombre": ".NET" }
+        ]
+    }
+]
