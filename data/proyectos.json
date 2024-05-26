@@ -1,5 +1,11 @@
 [
     {
+        "nombre": "Movie App",
+        "imagen": "../assets/img/movie.webp",
+        "github": "https://github.com/Ferchulobo777/entregablecac-movie",
+        "link": "https://proyecto-movie-cac.netlify.app/"
+    },
+    {
         "nombre": "Wheather Web App",
         "imagen": "../assets/img/weather.webp",
         "github": "https://github.com/Ferchulobo777/Weather-App",
