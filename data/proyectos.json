@@ -7,7 +7,7 @@
     },
     {
         "nombre": "Wheather Web App",
-        "imagen": "../assets/img/weather.webp",
+        "imagen": "../assets/img/weather-app-v2.webp",
         "github": "https://github.com/Ferchulobo777/Weather-App-v2",
         "link": "https://weather-v2-app.netlify.app/"
     },
