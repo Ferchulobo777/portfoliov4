@@ -8,8 +8,8 @@
     {
         "nombre": "Wheather Web App",
         "imagen": "../assets/img/weather.webp",
-        "github": "https://github.com/Ferchulobo777/Weather-App",
-        "link": "https://wheatherapp-a.netlify.app/"
+        "github": "https://github.com/Ferchulobo777/Weather-App-v2",
+        "link": "https://weather-v2-app.netlify.app/"
     },
     {
         "nombre": "Cost Control Web App",
